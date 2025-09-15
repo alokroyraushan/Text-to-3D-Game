@@ -127,17 +127,7 @@ This repository contains the **Text-to-3D Game Asset Generator** project develop
 | Helmet | 126,932 | 124,932 | 1.6% |
 | Rock | 120,984 | 118,984 | 1.7% |
 
-### 6️⃣ Next Steps with More Time / Resources
-- Generate **LOD (Level of Detail)** versions for mobile optimization.  
-- Add **textures and UV baking** for richer visuals.  
-- Build **FastAPI endpoint** with a job queue to dynamically generate assets.  
-- Validate assets directly in **Unity or Unreal Engine**.  
 
-### 7️⃣ Extras
-- Optional **FastAPI endpoint** for asset generation.  
-- Parameter experiments documented with outputs side-by-side.  
-- Basic **validation metrics** (triangle counts, Blender import success).  
-- Automatic **mesh optimization** pipeline applied.
 
 ### 8️⃣ Repository Link
 [https://github.com/alokroyraushan/Text-to-3D-Game](https://github.com/alokroyraushan/Text-to-3D-Game)  
