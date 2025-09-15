@@ -1,0 +1,12 @@
+torch>=2.0.0
+diffusers
+transformers
+accelerate
+trimesh
+pygltflib
+fastapi
+uvicorn
+python-multipart
+aiofiles
+fast-simplification
+git+https://github.com/openai/shap-e.git
