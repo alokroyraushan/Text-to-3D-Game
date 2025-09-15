@@ -106,18 +106,18 @@ All assets are optimized (mesh reduction) for better performance on mobile.
 
 ### 📝 Sample Output & Optimization Results
 
-| Asset                     | Original Triangles | Reduced Triangles | Reduction % | Saved As |
-|----------------------------|-----------------:|----------------:|------------:|----------|
-| Low-poly Tree              | 99,128           | 97,628          | 1.5%        | `opt_a low-poly.glb` |
-| Simple Tree (Mobile)       | 78,416           | 76,916          | 1.9%        | `opt_a very sim.glb` |
-| Minimalist Tree            | 86,472           | 84,972          | 1.7%        | `opt_a minimali.glb` |
-| Game-ready Tree            | 74,804           | 73,304          | 2.0%        | `opt_a game-rea.glb` |
-| Optimized Tree             | 46,416           | 44,916          | 3.2%        | `opt_a tree 3d .glb` |
-| Fantasy Sword              | 59,652           | 57,652          | 3.4%        | `game_sword.glb` |
-| Potion                     | 141,980          | 139,980         | 1.4%        | `game_potion.glb` |
-| Shield                     | 60,752           | 58,752          | 3.3%        | `game_shield.glb` |
-| Helmet                     | 126,932          | 124,932         | 1.6%        | `game_helmet.glb` |
-| Rock                       | 120,984          | 118,984         | 1.7%        | `game_rock.glb` |
+| Asset                     | Original Triangles | Reduced Triangles | Reduction % |
+|----------------------------|-----------------:|----------------:|------------:|
+| Low-poly Tree              | 99,128           | 97,628          | 1.5%        | 
+| Simple Tree (Mobile)       | 78,416           | 76,916          | 1.9%        | 
+| Minimalist Tree            | 86,472           | 84,972          | 1.7%        | 
+| Game-ready Tree            | 74,804           | 73,304          | 2.0%        | 
+| Optimized Tree             | 46,416           | 44,916          | 3.2%        | 
+| Fantasy Sword              | 59,652           | 57,652          | 3.4%        | 
+| Potion                     | 141,980          | 139,980         | 1.4%        | 
+| Shield                     | 60,752           | 58,752          | 3.3%        | 
+| Helmet                     | 126,932          | 124,932         | 1.6%        | 
+| Rock                       | 120,984          | 118,984         | 1.7%        | 
 
 
 ---
