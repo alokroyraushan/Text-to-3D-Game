@@ -97,6 +97,30 @@ All assets are optimized (mesh reduction) for better performance on mobile.
 
 ---
 
+## ⚙️ Parameters & Experimentation
+
+**Tested guidance scales:** `[7.0, 12.0, 15.0, 18.0, 25.0]`  
+**Tested steps:** `[32, 64, 128]`  
+
+**Found optimal trade‑off:** `scale = 12.0`, `steps = 32`  
+
+### 📝 Sample Output & Optimization Results
+
+| Asset                     | Original Triangles | Reduced Triangles | Reduction % | Saved As |
+|----------------------------|-----------------:|----------------:|------------:|----------|
+| Low-poly Tree              | 99,128           | 97,628          | 1.5%        | `opt_a low-poly.glb` |
+| Simple Tree (Mobile)       | 78,416           | 76,916          | 1.9%        | `opt_a very sim.glb` |
+| Minimalist Tree            | 86,472           | 84,972          | 1.7%        | `opt_a minimali.glb` |
+| Game-ready Tree            | 74,804           | 73,304          | 2.0%        | `opt_a game-rea.glb` |
+| Optimized Tree             | 46,416           | 44,916          | 3.2%        | `opt_a tree 3d .glb` |
+| Fantasy Sword              | 59,652           | 57,652          | 3.4%        | `game_sword.glb` |
+| Potion                     | 141,980          | 139,980         | 1.4%        | `game_potion.glb` |
+| Shield                     | 60,752           | 58,752          | 3.3%        | `game_shield.glb` |
+| Helmet                     | 126,932          | 124,932         | 1.6%        | `game_helmet.glb` |
+| Rock                       | 120,984          | 118,984         | 1.7%        | `game_rock.glb` |
+
+
+---
 ## 📦 Requirements
 - Python 3.10+  
 - CUDA GPU (optional for speed)  
