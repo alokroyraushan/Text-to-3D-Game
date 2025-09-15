@@ -90,35 +90,59 @@ All assets are optimized (mesh reduction) for better performance on mobile.
 
 ---
 
-## ⚙️ Parameters & Experimentation
-- Tested **guidance scales**: `[7.0, 12.0, 15.0, 18.0, 25.0]`  
-- Tested **steps**: `[32, 64, 128]`  
-- Found optimal trade‑off at **scale = 12.0**, **steps = 32**  
+## 📢 Submission Summary
 
----
+This repository contains the **Text-to-3D Game Asset Generator** project developed by **Alok Kumar** for **Red Panda Games Careers**.
 
-## ⚙️ Parameters & Experimentation
+### 1️⃣ GitHub Repo Contents
+- **Code:** Colab notebook (`Text-to-3D Game.ipynb`) and optional API scripts.  
+- **README:** Detailed instructions to run the project and understand outputs.  
+- **Sample Outputs:** Optimized `.glb` files in the `outputs/` folder. Screenshots can be added for visualization.
 
-**Tested guidance scales:** `[7.0, 12.0, 15.0, 18.0, 25.0]`  
-**Tested steps:** `[32, 64, 128]`  
+### 2️⃣ Model / Tool Used
+- **Tool:** Shap‑E  
+- **Reason:** Automatically generates 3D assets from text prompts. Supports mesh optimization for mobile-friendly performance.
 
-**Found optimal trade‑off:** `scale = 12.0`, `steps = 32`  
+### 3️⃣ Input Parameters Tested
+- **Guidance Scales:** `[7.0, 12.0, 15.0, 18.0, 25.0]`  
+- **Steps:** `[32, 64, 128]`  
+- **Optimal Trade-Off:** Scale = `12.0`, Steps = `32`
 
-### 📝 Sample Output & Optimization Results
+### 4️⃣ Observations
+- Increasing **steps** slightly improved mesh quality but increased runtime.  
+- Adjusting **guidance scale** affected mesh style and complexity.  
+- Mesh simplification reduced triangles by ~1.4–3.4% without noticeable visual degradation.  
 
-| Asset                     | Original Triangles | Reduced Triangles | Reduction % |
-|----------------------------|-----------------:|----------------:|------------:|
-| Low-poly Tree              | 99,128           | 97,628          | 1.5%        | 
-| Simple Tree (Mobile)       | 78,416           | 76,916          | 1.9%        | 
-| Minimalist Tree            | 86,472           | 84,972          | 1.7%        | 
-| Game-ready Tree            | 74,804           | 73,304          | 2.0%        | 
-| Optimized Tree             | 46,416           | 44,916          | 3.2%        | 
-| Fantasy Sword              | 59,652           | 57,652          | 3.4%        | 
-| Potion                     | 141,980          | 139,980         | 1.4%        | 
-| Shield                     | 60,752           | 58,752          | 3.3%        | 
-| Helmet                     | 126,932          | 124,932         | 1.6%        | 
-| Rock                       | 120,984          | 118,984         | 1.7%        | 
+### 5️⃣ Post-Processing & Optimization
+| Asset | Original Triangles | Reduced Triangles | Reduction % |
+|-------|------------------|-----------------|-------------|
+| Low-poly Tree | 99,128 | 97,628 | 1.5% |
+| Simple Tree (Mobile) | 78,416 | 76,916 | 1.9% |
+| Minimalist Tree | 86,472 | 84,972 | 1.7% |
+| Game-ready Tree | 74,804 | 73,304 | 2.0% |
+| Optimized Tree | 46,416 | 44,916 | 3.2% |
+| Fantasy Sword | 59,652 | 57,652 | 3.4% |
+| Potion | 141,980 | 139,980 | 1.4% |
+| Shield | 60,752 | 58,752 | 3.3% |
+| Helmet | 126,932 | 124,932 | 1.6% |
+| Rock | 120,984 | 118,984 | 1.7% |
 
+### 6️⃣ Next Steps with More Time / Resources
+- Generate **LOD (Level of Detail)** versions for mobile optimization.  
+- Add **textures and UV baking** for richer visuals.  
+- Build **FastAPI endpoint** with a job queue to dynamically generate assets.  
+- Validate assets directly in **Unity or Unreal Engine**.  
+
+### 7️⃣ Extras
+- Optional **FastAPI endpoint** for asset generation.  
+- Parameter experiments documented with outputs side-by-side.  
+- Basic **validation metrics** (triangle counts, Blender import success).  
+- Automatic **mesh optimization** pipeline applied.
+
+### 8️⃣ Repository Link
+[https://github.com/alokroyraushan/Text-to-3D-Game](https://github.com/alokroyraushan/Text-to-3D-Game)  
+
+This submission provides **code, Colab notebook, optimized `.glb` assets, and a detailed summary** of experiments and observations.
 
 ---
 
