@@ -121,6 +121,16 @@ All assets are optimized (mesh reduction) for better performance on mobile.
 
 
 ---
+
+## 🖼️ Visualizations & Screenshots
+
+The generated 3D game assets (`.glb` files) can be visualized and explored interactively.  
+You can view/download all assets from the shared Drive link:
+
+[View 3D Assets on Google Drive](https://drive.google.com/file/d/1N59QL3d8bIlgqCy-rBfUnN40SKQdFyvX/view?usp=sharing)
+
+---
+
 ## 📦 Requirements
 - Python 3.10+  
 - CUDA GPU (optional for speed)  
